@@ -328,7 +328,7 @@ body {
 .slider__price {
    width: 288px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
    .slider__price {
       width: 421px;
       margin: 24px 0 0;
@@ -343,7 +343,7 @@ body {
    margin: 0 0 16px 8px;
    color: #1b1c21;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
    .slider__price p {
       margin: 0 0 16px;
    }
@@ -360,7 +360,7 @@ body {
    margin: 0 0 40px 8px;
    color: #1b1c21;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
    .slider__price a {
       margin: 0 0 40px;
    }
@@ -377,7 +377,7 @@ body {
    top: 37px;
    left: 112px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
    .slider__price-link__arrow {
       top: 13px;
       left: 303px;
