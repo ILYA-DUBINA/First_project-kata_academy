@@ -1096,7 +1096,7 @@ tr td:nth-child(3) {
 }
 .footer__content {
    text-align: center;
-   padding-top: 16px;
+   padding: 16px 16px 19px;
    border-top: 1px solid #d9fff5;
    background-color: #f8f8f8;
 }
@@ -1110,6 +1110,10 @@ tr td:nth-child(3) {
       justify-content: space-between;
       text-align: left;
       padding: 32px 24px 25px;
+   }
+}
+@media screen and (min-width: 1120px) {
+   .footer__content {
       padding: 32px 32px 21px;
    }
 }
@@ -1129,7 +1133,7 @@ tr td:nth-child(3) {
    }
 }
 .footer__item:last-child {
-   margin-bottom: 19px;
+   margin-bottom: 0;
 }
 @media screen and (min-width: 768px) {
    .footer__item:last-child {
