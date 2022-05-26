@@ -1,13 +1,29 @@
 @font-face {
-   font-family: "TTLakesRegular", sans-serif;
+   font-family: "TTLakesRegular";
+   src: url("/assets/fonts/TTLakes-Regular.eot"), url("/assets/fonts/TTLakes-Regular.woff"),
+      url("/assets/fonts/TTLakes-Regular.ttf");
+}
+@font-face {
+   font-family: "TTLakesMedium";
+   src: url("/assets/fonts/TTLakes-Medium.eot"), url("/assets/fonts/TTLakes-Medium.woff"),
+      url("/assets/fonts/TTLakes-Medium.ttf");
+}
+@font-face {
+   font-family: "TTLakesBold";
+   src: url("/assets/fonts/TTLakes-Bold.eot"), url("/assets/fonts/TTLakes-Bold.woff"),
+      url("/assets/fonts/TTLakes-Bold.ttf");
+}
+
+@font-face {
+   font-family: "TTLakesRegular";
    src: url("../fonts/TTLakes-Regular.eot"), url("../fonts/TTLakes-Regular.woff"), url("../fonts/TTLakes-Regular.ttf");
 }
 @font-face {
-   font-family: "TTLakesMedium", sans-serif;
+   font-family: "TTLakesMedium";
    src: url("../fonts/TTLakes-Medium.eot"), url("../fonts/TTLakes-Medium.woff"), url("../fonts/TTLakes-Medium.ttf");
 }
 @font-face {
-   font-family: "TTLakesBold", sans-serif;
+   font-family: "TTLakesBold";
    src: url("../fonts/TTLakes-Bold.eot"), url("../fonts/TTLakes-Bold.woff"), url("../fonts/TTLakes-Bold.ttf");
 }
 body {
